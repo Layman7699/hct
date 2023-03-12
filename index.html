@@ -1,0 +1,422 @@
+<!--
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2023-03-11 21:18:33
+ * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @LastEditTime: 2023-03-12 00:42:56
+ * @FilePath: \合成台\index.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>合成台</title>
+
+    <!--图标-->
+    <link
+      rel="shortcut icon"
+      href="https://s1.ax1x.com/2023/02/09/pSWEw4S.jpg"
+      type="image/x-icon"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        height: 100vh; /*100vh:浏览器视图高度100%*/
+        background-color: #eee;
+      }
+
+      .hb {
+        border: 3px solid rgb(161, 190, 240); /*实心的 黑色*/
+      }
+
+      .flex {
+        display: flex;
+      }
+
+      .baise {
+        background-color: rgb(190, 190, 190);
+      }
+
+      .flex1 {
+        flex: 1;
+      }
+
+      .column {
+        flex-direction: column;
+      }
+
+      .tmd {
+        opacity: 0.6;
+      }
+
+      .yj {
+        border-radius: 20px;
+      }
+
+      /* 当屏幕宽度小于600px时要改变的css */
+      @media (max-width: 600px) {
+        /* 小屏幕上取消侧边栏 */
+        .cebian {
+          display: none;
+        }
+        /* 内容栏和数据栏flex方向改为竖向 */
+        .neiRong {
+          flex-direction: column;
+        }
+        .shuJuQu {
+          flex-direction: column;
+        }
+        /* 右区加左外边距 */
+        .youQu {
+          margin-left: 8px;
+        }
+        /* 数据块外边距，大小改为自动宽高 */
+        .zd {
+          margin: 0 0 8px;
+          flex: auto;
+        }
+      }
+    </style>
+  </head>
+
+  <!--背景图片-->
+  <style>
+    body {
+      background-image: url(https://s1.ax1x.com/2023/03/12/ppKTjmT.png);
+      background-size: 100%;
+      background-attachment: fixed;
+    }
+  </style>
+
+  <body class="flex">
+    <!-- 侧边栏 -->
+    <div style="width: 200px" class="column baise tmd hb cebian">
+      <!-- 校徽 -->
+      <div style="margin-top: 20px; margin-left: 40px">
+        <img
+          src="https://s1.ax1x.com/2023/02/11/pSh7YLj.png"
+          alt="校徽.jpg"
+          width="100px"
+          height="100px"
+        />
+      </div>
+      <!-- 合成台 -->
+      <div>
+        <p
+          style="
+            font-size: 50px;
+            color: #070707;
+            font-family: 楷体;
+            margin-top: 10px;
+            margin-left: 20px;
+          "
+        >
+          合成台
+        </p>
+      </div>
+
+      <!-- 官网 -->
+      <div class="flex">
+        <div style="margin-left: 23px; margin-top: 36px">
+          <a href="https://www.ctbu.edu.cn/"
+            ><img
+              src="https://s1.ax1x.com/2023/02/10/pSftvyn.jpg"
+              alt="官网.jpg"
+              width="60px"
+          /></a>
+        </div>
+        <div>
+          <p
+            style="
+              font-size: 36px;
+              font-family: 黑体;
+              margin-left: 25px;
+              margin-top: 46px;
+            "
+          >
+            官网
+          </p>
+        </div>
+      </div>
+
+      <!-- 公告 -->
+      <div class="flex">
+        <div style="margin-left: 23px; margin-top: 36px">
+          <a href="https://www.ctbu.edu.cn/index/xxgg.htm"
+            ><img
+              src="https://s1.ax1x.com/2023/02/10/pShSAXV.jpg"
+              alt="公告.jpg"
+              width="60px"
+          /></a>
+        </div>
+
+        <div>
+          <p
+            style="
+              font-size: 36px;
+              font-family: 黑体;
+              margin-left: 25px;
+              margin-top: 46px;
+            "
+          >
+            公告
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 主区域 -->
+    <div class="flex1 flex column tmd">
+      <!-- 头部栏 -->
+      <div style="height: 60px; text-align: center" class="baise hb">
+        好好学习，天天向上
+      </div>
+
+      <div class="flex column neiRong" style="overflow: auto">
+        <!-- 内容区1  -->
+        <div style="height: 160px" class="flex">
+          <!-- 事务中心 -->
+          <div class="flex1 flex baise hb yj zd">
+            <div style="margin-left: 20px; margin-top: 20px">
+              <a href="https://swzx.ctbu.edu.cn/#/index"
+                ><img
+                  src="https://s1.ax1x.com/2023/02/09/pSWZh6J.jpg"
+                  alt="事务中心.jpg"
+                  width="120px"
+                  height="120px"
+                />
+              </a>
+            </div>
+
+            <div>
+              <p
+                style="
+                  font-size: 36px;
+                  font-family: 黑体;
+                  margin-left: 23px;
+                  margin-top: 65px;
+                "
+              >
+                事务中心
+              </p>
+            </div>
+          </div>
+          <!-- 新教务系统 -->
+          <div class="flex1 flex baise hb yj zd">
+            <div style="margin-left: 20px; margin-top: 20px">
+              <a href="https://jw.ctbu.edu.cn/sso.jsp"
+                ><img
+                  src="https://s1.ax1x.com/2023/02/10/pSfYANF.png"
+                  alt="新教务系统.jpg"
+                  width="120px"
+                  height="120px"
+                />
+              </a>
+            </div>
+
+            <div>
+              <p
+                style="
+                  font-size: 36px;
+                  font-family: 黑体;
+                  margin-left: 23px;
+                  margin-top: 65px;
+                "
+              >
+                教务系统
+              </p>
+            </div>
+          </div>
+          <!-- 在线学习平台 -->
+          <div class="flex1 flex baise hb yj zd">
+            <div style="margin-left: 20px; margin-top: 20px">
+              <a href="https://eol.ctbu.edu.cn/meol//index.do"
+                ><img
+                  src="https://s1.ax1x.com/2023/02/09/pSfA3Hx.jpg"
+                  alt="在线学习平台.jpg"
+                  width="120px"
+                  height="120px"
+                />
+              </a>
+            </div>
+
+            <div>
+              <p
+                style="
+                  font-size: 36px;
+                  font-family: 黑体;
+                  margin-left: 23px;
+                  margin-top: 65px;
+                "
+              >
+                在线学习
+              </p>
+            </div>
+          </div>
+          <!-- 学堂在线 -->
+          <div class="flex1 flex baise hb yj zd">
+            <div style="margin-left: 20px; margin-top: 20px">
+              <a href="https://www.xuetangx.com/"
+                ><img
+                  src="https://s1.ax1x.com/2023/02/09/pSfEqTP.png"
+                  alt="学堂在线.jpg"
+                  width="120px"
+                  height="120px"
+                />
+              </a>
+            </div>
+
+            <div>
+              <p
+                style="
+                  font-size: 36px;
+                  font-family: 黑体;
+                  margin-left: 23px;
+                  margin-top: 65px;
+                "
+              >
+                学堂在线
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 内容区2 -->
+        <div style="height: 160px" class="flex">
+          <!-- 四六级 -->
+          <div class="flex1 flex baise hb yj zd">
+            <div style="margin-left: 20px; margin-top: 20px">
+              <a href="https://cet.neea.edu.cn/"
+                ><img
+                  src="https://s1.ax1x.com/2023/02/09/pSfelRO.jpg"
+                  alt="全国大学生四六级考试官网.jpg"
+                  width="120px"
+                  height="120px"
+                />
+              </a>
+            </div>
+
+            <div>
+              <a href="https://passport.neea.edu.cn/CETLogin">
+                <p
+                  style="
+                    font-size: 36px;
+                    font-family: 黑体;
+                    margin-left: 23px;
+                    margin-top: 35px;
+                  "
+                >
+                  全国英语四、六级
+                </p>
+              </a>
+            </div>
+          </div>
+          <!-- 计算机等级 -->
+          <div class="flex1 flex baise hb yj zd">
+            <div style="margin-left: 20px; margin-top: 20px">
+              <a href="https://ncre.neea.edu.cn/"
+                ><img
+                  src="https://s1.ax1x.com/2023/02/09/pSfe1zD.jpg"
+                  alt="全国计算机等级考试官网.jpg"
+                  width="120px"
+                  height="120px"
+                />
+              </a>
+            </div>
+
+            <div>
+              <a href="https://passport.neea.edu.cn/NCRELogin">
+                <p
+                  style="
+                    font-size: 36px;
+                    font-family: 黑体;
+                    margin-left: 23px;
+                    margin-top: 45px;
+                  "
+                >
+                  计算机二级官网
+                </p>
+              </a>
+            </div>
+          </div>
+          <!-- 智慧树 -->
+          <div class="flex1 flex baise hb yj zd">
+            <div style="margin-left: 20px; margin-top: 20px">
+              <a href="https://www.zhihuishu.com/"
+                ><img
+                  src="https://s1.ax1x.com/2023/02/09/pSfEbwt.png"
+                  alt="智慧树.jpg"
+                  width="120px"
+                  height="120px"
+                />
+              </a>
+            </div>
+
+            <div>
+              <a href="https://passport.zhihuishu.com/login">
+                <p
+                  style="
+                    font-size: 36px;
+                    font-family: 黑体;
+                    margin-left: 23px;
+                    margin-top: 65px;
+                  "
+                >
+                  智慧树
+                </p>
+              </a>
+            </div>
+          </div>
+          <!-- 马克思主义学院教学平台 -->
+          <div class="flex1 flex baise hb yj zd">
+            <div style="margin-left: 20px; margin-top: 20px">
+              <a href="https://marxsj.ctbu.edu.cn/login.html"
+                ><img
+                  src="https://s1.ax1x.com/2023/02/09/pSfVd0I.png"
+                  alt="马克思主义学院综合教学平台.jpg"
+                  width="120px"
+                  height="120px"
+                />
+              </a>
+            </div>
+
+            <div>
+              <p
+                style="
+                  font-size: 36px;
+                  font-family: 黑体;
+                  margin-left: 23px;
+                  margin-top: 36px;
+                "
+              >
+                马院综合教学平台
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- 留白 -->
+        <div
+          style="height: 250px; opacity: 0"
+          class="flex column baise yj zd"
+        ></div>
+
+        <!-- 尾部栏 -->
+        <div
+          style="height: 80px; opacity: 0.5; text-align: center"
+          class="column baise zd"
+        >
+          <div style="font-size: 18px; font-family: 黑体">
+            <p>product by DS</p>
+          </div>
+
+          <div style="font-size: 18px; font-family: 黑体">
+            <p>2023.03.11</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
